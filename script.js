@@ -100,7 +100,7 @@ for (let i = 1; i <= 4; i++) {
     rack.classList.add("rack");
     rack.id = `rack${i}`;
 
-    for (let j = 1; j <= 74; j++) {
+    for (let j = 1; j <= 72; j++) {
         const compartment = document.createElement("div");
         compartment.textContent = j;
         compartment.id = `rack${i}-compartment${j}`;
